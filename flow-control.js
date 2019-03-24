@@ -110,7 +110,7 @@ return (age ? "You are a teenager" : "You are not a teenager");
 function switchAge(age) {
   
   switch (age) {
-  case 1,:
+  case 1:
       // code to be executed if case n is true
       break; // break out of switch statement once code executed
   case m:
@@ -118,6 +118,10 @@ function switchAge(age) {
       break; // break out of switch statement once code executed
   default:  // all other cases
       // code to be executed if case n and case m false
+      case "happy":
+      return "You are a teenager"
+    default:
+      return "You have an age"
 }
 
 }
